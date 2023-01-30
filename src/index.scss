@@ -1,0 +1,23 @@
+@import "./components/header/index";
+@import "./components/logo/index";
+@import "./components/pokemon/index";
+@import "./components/info-nav/index";
+@import "./pages/pokemon/index";
+
+@import "./pages/home/index";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import url(https://fonts.cdnfonts.com/css/pokemon-solid);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background: #F0F7FA;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+

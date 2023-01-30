@@ -1,0 +1,39 @@
+.pokemon__header {
+  display: flex;
+  align-items: center;
+  height: 67px;
+  background: #6dedb7;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, "|");
+    color: #1d8696;
+  }
+
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #1d8696;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+  }
+
+  .breadcrumb {
+    margin-bottom: 0;
+  }
+
+  .me-2.form-control {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px 5px 35px;
+    font-size: 13px;
+    border-radius: 18px;
+    line-height: 100%;
+    border: #1d8696 2px solid;
+    width: 201px;
+    background: url(https://poke.gishan.cc/static/i/search.svg) left center no-repeat #fff;
+    background-size: 16px 16px;
+    background-position: 10px;
+  }
+}

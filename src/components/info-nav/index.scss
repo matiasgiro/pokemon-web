@@ -1,0 +1,22 @@
+.pokemon-info-nav {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  background: #e7f0e1;
+  border-radius: 20px;
+
+  &-hp {
+    background: #71edb9;
+    border-radius: 20px;
+  }
+
+  &-cp {
+    background: #c35fff;
+    border-radius: 20px;
+  }
+
+  p {
+    margin-bottom: 0;
+    padding: 10px 15px;
+  }
+}
